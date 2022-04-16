@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "starDev": "nodemon app.js"
+    "startDev": "nodemon app.js"
   },
 
   "dependencies": {
