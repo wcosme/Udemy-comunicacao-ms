@@ -43,6 +43,14 @@ services:
       - 25676:25676
       - 15672:15672
 
+  product-api:
+    build: './product-api'
+    container_name: product-api
+    environment:
+      - PORT=8081
+    ports:
+      - 8081:8081
+
   sales-api:
     build: './sales-api'
     container_name: sales-api
